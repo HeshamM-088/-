@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+    font-size: 25px;
+}
+
+.main-background{
+    width: 100%;
+    height: 100vh;
+    background-image: url('../images/logo.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.content{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.right{
+    display: flex;
+    flex-basis: 35%;
+    justify-content: space-evenly;
+}
